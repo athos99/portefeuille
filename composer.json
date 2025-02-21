@@ -23,10 +23,10 @@
         "symfony/twig-bundle": "7.2.*",
         "symfony/validator": "7.2.*",
         "symfony/yaml": "7.2.*",
-        "symfonycasts/reset-password-bundle": "^1.23",
-        "symfonycasts/verify-email-bundle": "^1.17",
-        "twig/extra-bundle": "^2.12|^3.0",
-        "twig/twig": "^2.12|^3.0"
+        "symfonycasts/reset-password-bundle": "^1.23.1",
+        "symfonycasts/verify-email-bundle": "^1.17.3",
+        "twig/extra-bundle": "^2.12|^3.20",
+        "twig/twig": "^2.12|^3.20"
     },
     "config": {
         "allow-plugins": {
@@ -79,6 +79,8 @@
         }
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.62.1"
+        "symfony/maker-bundle": "^1.62.1",
+        "symfony/stopwatch": "7.2.*",
+        "symfony/web-profiler-bundle": "7.2.*"
     }
 }
